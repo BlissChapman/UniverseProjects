@@ -3,7 +3,7 @@ import universe  # register the universe environments
 
 from agent import RandomAgent
 
-env = gym.make("CartPole-v0")
+env = gym.make("SpaceInvaders-v0")
 
 env.seed(0)
 agent = RandomAgent(env.action_space)
